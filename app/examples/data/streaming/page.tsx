@@ -80,7 +80,7 @@ async function MediumComponent() {
 }
 
 async function SlowComponent() {
-  const data = await getSlowData(3000, "Slow Section")
+  const data = await getSlowData(300, "Slow Section")
   return (
     <Card>
       <CardHeader>
