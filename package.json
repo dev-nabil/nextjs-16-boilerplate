@@ -53,11 +53,11 @@
     "framer-motion": "latest",
     "input-otp": "latest",
     "lucide-react": "^0.454.0",
-    "next": "16.0.8",
+    "next": "16.1.0",
     "next-themes": "latest",
-    "react": "19.0.0",
+    "react": "19.2.3",
     "react-day-picker": "latest",
-    "react-dom": "19.0.0",
+    "react-dom": "19.2.3",
     "react-hook-form": "latest",
     "react-hot-toast": "latest",
     "react-redux": "latest",
@@ -74,15 +74,21 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
-    "@types/react": "^19.0.6",
-    "@types/react-dom": "^19.0.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "eslint": "^9.17.0",
-    "eslint-config-next": "16.0.8",
+    "eslint-config-next": "16.1.0",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
     "typescript": "^5"
   },
   "engines": {
     "node": ">=18.17.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.2.7",
+      "@types/react-dom": "19.2.3"
+    }
   }
 }
